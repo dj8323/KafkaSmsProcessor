@@ -1,0 +1,10 @@
+Project Name: Kafka Data Consumer
+Version: 1.0.0
+Author: Dhananjay
+Description: 
+This project works as a consumer which fetches data from sources such as SMS Gateway and SMS Handler 
+to update the delivery status (Delivered / Failed / Expired etc.) of any MSISDN which is already sent. 
+The system updates the delivery status in the `gmat_log_info` table based on the `ref_Id` and source 
+(camp / cvm / smpp).
+
+Build Date: 2025-09-13
